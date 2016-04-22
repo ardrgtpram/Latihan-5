@@ -15,5 +15,8 @@ public class Mainbukutamu {
             buku[i].showMessages();
         }
         System.out.println("=========================");
+        for (int i = 0; i < bukutamu.jumlah; i++) {
+            buku[i].showMessage();
+        }
     }
 }
